@@ -1,0 +1,56 @@
+* {
+    background-color:     #262626;
+    text-color:           #f8f8f8;
+    font: "Tamsyn 12";
+}
+
+#window {
+	location:   south west;
+	anchor:   center;
+//	height:    80px; 
+	width:   20%;
+	orientation: horizontal;
+	children:   [mainbox];
+	border: 8px;
+	border-color: #303030;
+	x-offset:   50px;        
+	y-offset:   -50px;
+}
+
+
+#mainbox {
+    orientation: vertical;
+    /* children:   [prompt, entry, listview ]; */
+	//border: 3px;
+	//border-color: #bfbfbf;
+	padding: 8px 15px 15px 10px;
+}
+
+#listview {
+    layout:     vertical;
+    spacing:    10;
+    lines:     7;
+}
+
+#entry {
+    expand:     false;
+    margin: 8px 10px;
+    width: 8em;
+    color: #f8f8f8;
+}
+
+#element {
+    padding: 8px 0 0 10px;
+}
+
+
+#selected {
+    color: #f8f8f8;
+}
+
+#prompt {
+    text-color: #f8f8f8;
+    margin: 8px 10px 8px 10px;
+    enabled: false;
+}
+
