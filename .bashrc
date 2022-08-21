@@ -8,6 +8,6 @@
 alias ls='ls --color=auto'
 
 alias homebox='ssh gian@gian.im'
-alias unlock-homebox='ssh root@192.168.1.118'
+alias unlock-homebox='ssh root@dl.gian.im'
 
 PS1="\[\e[01;36m\]\w\[\e[m\] "
